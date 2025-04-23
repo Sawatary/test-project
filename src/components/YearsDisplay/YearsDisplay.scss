@@ -1,0 +1,76 @@
+@use '../../styles/variables' as *;
+
+.years-display {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  height: 350px;
+  gap: 40px;
+  will-change: transform, opacity;
+  transition: all 0.3s ease;
+  
+  @media (max-width: 1200px) {
+    height: 320px;
+    gap: 35px;
+  }
+  
+  @media (max-width: 1024px) {
+    height: 280px;
+    gap: 30px;
+  }
+  
+  @media (max-width: 768px) {
+    height: 230px;
+    gap: 25px;
+  }
+  
+  @media (max-width: 480px) {
+    height: auto;
+    position: static;
+    background-color: transparent;
+    gap: 15px;
+    padding: 15px 0;
+  }
+}
+
+.year {
+  font-size: 130px;
+  font-weight: 700;
+  line-height: 1;
+  transition: color 0.3s ease;
+  will-change: transform, opacity;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+  @media (max-width: 1200px) {
+    font-size: 120px;
+  }
+  
+  @media (max-width: 1024px) {
+    font-size: 100px;
+  }
+  
+  @media (max-width: 768px) {
+    font-size: 70px;
+  }
+  
+  @media (max-width: 480px) {
+    font-size: 48px;
+  }
+}
+
+.start-year {
+  color: #5D5FEF;
+  text-shadow: 0 0 5px rgba(93, 95, 239, 0.2);
+}
+
+.end-year {
+  color: #EF5DA8;
+  text-shadow: 0 0 5px rgba(239, 93, 168, 0.2);
+} 
