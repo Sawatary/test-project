@@ -4,7 +4,7 @@ import Timeline from "./components/Timeline";
 const App: React.FC = () => {
   return (
     <div className="app">
-      <Timeline periods={[]} />
+      <Timeline />
     </div>
   );
 };
