@@ -14,7 +14,7 @@
 
 1. Клонируйте репозиторий:
 ```
-git clone https://github.com/yourusername/historical-dates.git
+git clone https://github.com/Sawatary/test-project.git
 cd historical-dates
 ```
 
