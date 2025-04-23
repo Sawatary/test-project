@@ -15,7 +15,7 @@
 1. Клонируйте репозиторий:
 ```
 git clone https://github.com/Sawatary/test-project.git
-cd historical-dates
+cd test-project
 ```
 
 2. Установите зависимости:
